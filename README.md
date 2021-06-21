@@ -1,4 +1,4 @@
-[![CI](https://github.com/wind-energy/taxonomy-topics/workflows/Sheet2RDF/badge.svg)](https://github.com/wind-energy/taxonomy-topics/actions?query=workflow%3ASheet2RDF)
+[![CI](https://github.com/DTUWindEnergy/NEAT-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/NEAT-taxonomy/actions?query=workflow%3ASheet2RDF)
 
 # NEAT: wi**N**d **E**nergy t**A**xonomy of **T**opics
 
