@@ -12,7 +12,7 @@ https://www.zenodo.org/record/1493874#.XSD7TaeQ3RY
 In 2020, the definition of taxonomy terms were added and the taxonomy was converted into FAIR machine-actionable controlled vocabulary using [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf).  The controlled vocabulary is served to humans and machines using an instace of [OntoStack](http://data.windenergy.dtu.dk/ontologies/view/) hosted by DTU Wind Energy.
 
 In 2021, the persistent URL [purl.org/neat](purl.org/neat) has been registered for the taxonomy. This allows us to: 
-1. If needed move taxonomy to another domain (currently under data.windenergy.dtu.dk)
+1. If there is a needed to move the taxonomy to another domain (currently under data.windenergy.dtu.dk) URLs will be still resolvable and unchanged
 2. Shorten URls for the taxonomy terms and properties such as:
   - [purl.org/aspect](purl.org/aspect) can be used instead of [http://data.windenergy.dtu.dk/controlled-terminology/neat/](http://data.windenergy.dtu.dk/controlled-terminology/neat/)
   - [purl.org/aspect/WindMapping](purl.org/aspect/WindMapping) can be used instead of [http://data.windenergy.dtu.dk/controlled-terminology/neat/WindMapping](http://data.windenergy.dtu.dk/controlled-terminology/neat/WindMapping)
