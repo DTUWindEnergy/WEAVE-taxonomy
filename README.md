@@ -1,6 +1,6 @@
 [![CI](https://github.com/DTUWindEnergy/NEAT-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/NEAT-taxonomy/actions?query=workflow%3ASheet2RDF)
 
-# [NEAT: wi**N**d **E**nergy t**A**xonomy of **T**opics](http://data.windenergy.dtu.dk/controlled-terminology/neat/)
+# [NEAT: wi**N**d **E**nergy t**A**xonomy of **T**opics](http://purl.org/neat/)
 
 Controlled vocabularies such as taxonomies allow an accurate and controlled approach in describing datasets. One of such controlled vocabulary is Wind Energy Taxonomy of Topics. This taxonomy is the result of EERA JP WIND IRPWind Open Data initiative that took place in 2017 in which wind energy experts generated the first version of the taxonomy as an input for defining and structuring [wind energy metadata](https://zenodo.org/record/4013191).
 
