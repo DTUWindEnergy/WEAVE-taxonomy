@@ -13,7 +13,7 @@ In 2020, the definition of taxonomy terms were added and the taxonomy was conver
 
 In 2021, the persistent URL [purl.org/neat](purl.org/neat) has been registered for the taxonomy.
 
-Currently the taxonomy is under extension by [IEA Wind TCP Task 41](https://iea-wind.org/task41/).
+Currently `NEAT` is being extended by [IEA Wind TCP Task 41](https://iea-wind.org/task41/).
 
 
 # Tooling
