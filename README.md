@@ -52,6 +52,10 @@ The taxonomy is implemented in following services:
 - [NEWA Mesoscale Atlas data access point](https://wps.neweuropeanwindatlas.eu/api/mesoscale-atlas/v1/docs)
 
 *NEWA: [New European Wind Atlas](https://www.neweuropeanwindatlas.eu/)*
+
+# Visualize taxonomy
+If you are interested to visualize taxonomy follow steps described in [this YouTube video](https://www.youtube.com/watch?v=NkgC3yXKgVU).
+
 # Contribute
 
 The taxonomy is intended to be used and further developed by the community. Therefore, we welcome collaborators willing to take part in the further development of the taxonomy. If you are one of them either request to become one of the taxonomy admins and/or post GitHub issues on what we can improve in the current taxonomy.
