@@ -1,4 +1,4 @@
-[![CI](https://github.com/DTUWindEnergy/EXTRACT-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/EXTRACT-taxonomy/actions?query=workflow%3ASheet2RDF)
+[![CI](https://github.com/DTUWindEnergy/WEAVE-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/WEAVE-taxonomy/actions?query=workflow%3ASheet2RDF)
 
 # [WEAVE: Wind Energy ActiVitiEs](http://purl.org/weave/)
 
