@@ -14,7 +14,7 @@ In 2021, the taxonomy was converted into FAIR machine-actionable controlled voca
 Additionally, in 2021, the persistent URL [purl.org/extract](http://purl.org/extract) has been registered for the taxonomy. This allows us to: 
 1. If there is a needed to move the taxonomy to another domain (currently under data.windenergy.dtu.dk) URLs will be still resolvable and unchanged
 2. Use short URls as PIDs for the taxonomy terms and properties such as:
-  - [purl.org/extract/Offshore](purl.org/extract/Offshore) 
+  - [purl.org/extract/Offshore](http://purl.org/extract/Offshore) 
 
 
 # Tooling
