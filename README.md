@@ -1,23 +1,20 @@
-[![CI](https://github.com/DTUWindEnergy/NEAT-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/NEAT-taxonomy/actions?query=workflow%3ASheet2RDF)
+[![CI](https://github.com/DTUWindEnergy/EXTRACT-taxonomy/workflows/Sheet2RDF/badge.svg)](https://github.com/DTUWindEnergy/EXTRACT-taxonomy/actions?query=workflow%3ASheet2RDF)
 
-# [NEAT: wi**N**d **E**nergy t**A**xonomy of **T**opics](http://purl.org/neat/)
+# [EXTRACT: **EXT**e**R**n**A**l **C**onditions **T**axonomy](http://purl.org/extract/)
 
-Controlled vocabularies such as taxonomies allow an accurate and controlled approach in describing datasets. One of such controlled vocabulary is Wind Energy Taxonomy of Topics. This taxonomy is the result of EERA JP WIND IRPWind Open Data initiative that took place in 2017 in which wind energy experts generated the first version of the taxonomy as an input for defining and structuring [wind energy metadata](https://zenodo.org/record/4013191).
+Controlled vocabularies such as taxonomies allow an accurate and controlled approach in describing datasets. One of such controlled vocabulary is Wind Energy Taxonomy of External Conditions. This taxonomy is the result of EERA JP WIND IRPWind Open Data initiative that took place in 2017 in which wind energy experts generated the first version of the taxonomy as an input for defining and structuring [wind energy metadata](https://zenodo.org/record/4013191).
 
 The report of this work is available at Zenodo: https://www.zenodo.org/record/1199489#.XSD6haeQ3RY
 
 In 2018, the taxonomy of topics was improved during the internal project of DTU Wind Energy titled 'FAIR Digitalization':
 https://www.zenodo.org/record/1493874#.XSD7TaeQ3RY
 
-In 2020, the definition of taxonomy terms were added and the taxonomy was converted into FAIR machine-actionable controlled vocabulary using [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf).  The controlled vocabulary is served to humans and machines using an instace of [OntoStack](http://data.windenergy.dtu.dk/ontologies/view/) hosted by DTU Wind Energy. `sheet2rdf` and `OntoStack` are developed by [FAIR Data Collective](http://fairdatacollective.org).
+In 2021, the taxonomy was converted into FAIR machine-actionable controlled vocabulary using [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf).  The controlled vocabulary is served to humans and machines using an instace of [OntoStack](http://data.windenergy.dtu.dk/ontologies/view/) hosted by DTU Wind Energy. `sheet2rdf` and `OntoStack` are developed by [FAIR Data Collective](http://fairdatacollective.org).
 
-In 2021, the persistent URL [purl.org/neat](http://purl.org/neat) has been registered for the taxonomy. This allows us to: 
+Additionally, in 2021, the persistent URL [purl.org/extract](http://purl.org/extract) has been registered for the taxonomy. This allows us to: 
 1. If there is a needed to move the taxonomy to another domain (currently under data.windenergy.dtu.dk) URLs will be still resolvable and unchanged
-2. Shorten URls for the taxonomy terms and properties such as:
-  - [purl.org/aspect](http://purl.org/aspect) can be used instead of [http://data.windenergy.dtu.dk/controlled-terminology/neat/](http://data.windenergy.dtu.dk/controlled-terminology/neat/)
-  - [purl.org/aspect/WindMapping](http://purl.org/aspect/WindMapping) can be used instead of [http://data.windenergy.dtu.dk/controlled-terminology/neat/WindMapping](http://data.windenergy.dtu.dk/controlled-terminology/neat/WindMapping)
-
-Currently `NEAT` is being extended by [IEA Wind TCP Task 41](https://iea-wind.org/task41/).
+2. Use short URls as PIDs for the taxonomy terms and properties such as:
+  - [purl.org/extract/Offshore](purl.org/extract/Offshore) 
 
 
 # Tooling
