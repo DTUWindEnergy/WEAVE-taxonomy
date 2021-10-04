@@ -1,13 +1,128 @@
+@prefix activities: <http://purl.org/weave/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/weave/> a skos:ConceptScheme;
+<http://purl.org/weave/> a skos:Concept, skos:ConceptScheme;
   dct:creator <https://orcid.org/0000-0002-9381-9693>, <https://orcid.org/0000-0003-4124-9040>;
   dct:description "A classification of activities in which data are produced"@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Wind Energy ActiVitiEs (WEAVE)"@en;
   pav:createdOn "2017-09-01T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-10-01T12:00+02:00"@en;
-  pav:version "0.1.0"@en .
+  pav:version "0.1.0"@en;
+  skos:hasTopConcept <http://purl.org/weave/>, activities:Measurements, activities:Modeling,
+    activities:Validation;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:topConceptOf <http://purl.org/weave/> .
+
+activities:Measurements a skos:Concept;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:narrower activities:ConditionMonitoring, activities:Fatiguetests, activities:Fieldexperiment,
+    activities:Fieldtest, activities:Fullscaletest, activities:Interviews, activities:Laboratorytest,
+    activities:Long-termmonitoring, activities:Questionnaires, activities:Statictests,
+    activities:WindTunneltest;
+  skos:prefLabel "Measurements"@en;
+  skos:topConceptOf <http://purl.org/weave/> .
+
+activities:Modeling a skos:Concept;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Modeling"@en;
+  skos:topConceptOf <http://purl.org/weave/> .
+
+activities:Validation a skos:Concept;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:narrower activities:Certification, activities:Manufacturing, activities:Reliabilityandtesting,
+    activities:Uncertaintyanalysis;
+  skos:prefLabel "Validation"@en;
+  skos:topConceptOf <http://purl.org/weave/> .
+
+activities:Fieldexperiment a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Field experiment"@en .
+
+activities:Long-termmonitoring a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Long-term monitoring"@en .
+
+activities:Laboratorytest a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Laboratory test"@en .
+
+activities:WindTunneltest a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Wind Tunnel test"@en .
+
+activities:Fieldtest a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Field test"@en .
+
+activities:Fullscaletest a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Full scale test"@en .
+
+activities:ConditionMonitoring a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Condition Monitoring"@en .
+
+activities:Fatiguetests a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Fatigue tests"@en .
+
+activities:Statictests a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Static tests"@en .
+
+activities:Questionnaires a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Questionnaires"@en .
+
+activities:Interviews a skos:Concept;
+  skos:broader activities:Measurements;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Interviews"@en .
+
+activities:Manufacturing a skos:Concept;
+  skos:broader activities:Validation;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Manufacturing"@en .
+
+activities:Reliabilityandtesting a skos:Concept;
+  skos:broader activities:Validation;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Reliability and testing"@en .
+
+activities:Certification a skos:Concept;
+  skos:broader activities:Validation;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Certification"@en .
+
+activities:Uncertaintyanalysis a skos:Concept;
+  skos:broader activities:Validation;
+  skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "Uncertainty analysis"@en .
