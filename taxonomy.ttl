@@ -29,6 +29,7 @@
   skos:hasTopConcept <http://purl.org/weave/>, activities:Measurements, activities:Modeling,
     activities:Validation;
   skos:inScheme <http://purl.org/weave/>;
+  skos:prefLabel "WEAVE"@en;
   skos:topConceptOf <http://purl.org/weave/> .
 
 activities:Measurements a skos:Concept;
